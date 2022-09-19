@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        body{
+            position: relative;
+            height: 2000px;
+            display: flex;
+        }
+
+        .field{
+            position: relative;
+            margin: 0 auto;
+        }
+        
+        #ball{
+            width: 50px;
+            height: 50px;
+            background: url(images/soccer-ball-clipart-sport-347642.png);
+            background-size: contain;
+            position: absolute;
+        }      
+        </style>
+
+</head>
+<body>
+    <div class="field" onclick="moveBall(event)">
+        <img src="images/field1.jpg" alt="Field">
+    </div>
+
+    <div id="ball">
+
+    </div>
+
+<script>
+
+    function moveBall(e){
+      ball.style.left = e.pageX+'px';
+      ball.style.top = e.pageY+'px';
+
+    }
+
+
+   // stranger.addEventListener("click",function(e){console.log(e)})
+  </script>
+
+
+
+
+
+</body>
+</html>

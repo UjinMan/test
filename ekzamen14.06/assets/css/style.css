@@ -1,0 +1,141 @@
+body {
+    margin: 0 !important;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+    
+    font-family:'Jacques Francois';
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, {
+    margin: 0 !important;
+    font-family: 'Jacques Francois';
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.container{
+    padding-top: 30px;
+}
+
+.header__bg{
+    background-image: url("../images/header/back.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+
+
+.header__logo{
+    margin-right: 50px;
+}
+
+.header__nav{
+    align-items: baseline;
+    font-family:'Jacques Francois'
+}
+
+.nav__link{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color:black;
+    margin: 0 25px 0 25px;
+}
+
+.nav__button{
+    background-color: black;
+    border-radius: 10px;
+    width: 150px;
+    height: 45px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.header__item{
+    margin-top: 120px;
+    
+}
+
+.next__gen{
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 80px;
+    text-transform: uppercase;
+    margin-bottom: 36px;
+}
+
+.item__button{
+    background-color: black;
+    border-radius: 10px;
+    width: 150px;
+    height: 60px;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 36px;
+}
+
+.item__button{
+    margin-top: 40px;
+    width: 185px;
+    height: 61px;
+}
+
+.header__item__bottom{
+    margin-top: 70px;
+    align-items: baseline;
+}
+
+.left{
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 52px;
+    margin-right: 10px;
+}
+
+.right{
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 22px;
+}
+
+.item{
+    margin: 0 30px 165px 0;
+}
+
+.item__right{
+    margin-left: 20px;
+}
+
+
+

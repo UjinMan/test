@@ -1,0 +1,247 @@
+body {
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #333;
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.header__background{
+    background-image: url("../images/header/back.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+
+.header__logo{
+    margin-top: 27px;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.nav__link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #322F5C;
+    margin: 35px 15px 0 15px;
+    text-transform: uppercase;
+}
+
+.login{
+    margin-top: 28px;
+}
+
+.register{
+    color: #97C9B9;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.online__courses{
+    margin-top: 199px;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 60px;
+}
+
+.courses__info{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #929292;
+}
+
+.join__now{
+    margin-bottom: 200px;
+    background-color: #EDFAF6;
+    border: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 0;
+}
+
+.join__now:hover{
+    cursor: url("../images/header/cursor.png"),pointer;
+}
+
+.main{
+
+}
+
+ol, ul ,li{
+    margin: 0;
+    padding: 0 !important;
+}
+
+.footer__name{
+    text-align: center;
+    font-weight: 600;
+    font-size: clamp(16px 5vw 30px);
+    line-height: 1.3em;
+}
+
+.footer__buttons{
+    display: flex;
+    justify-content: center;
+    border: none;
+}
+
+.btn{
+    border: none;
+    background-color: white;
+    padding: 0;
+    margin: 1em 0.9em 0 0.9em;
+}
+
+.footer__background{
+    background-image: url("../images/footer/back.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100% 73%;
+    padding-top: 0.8em;
+    padding-bottom: 1.1em;
+
+}
+
+.address{
+    font-family: 'Josefin Sans';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 21px;
+}
+
+.number, .mail{
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 20px;
+}
+
+.social__logo{
+    display: flex;
+}
+
+.logo{
+    margin-right: 21px;
+}
+
+.left__column{
+    margin-left:
+}
+
+.first__flor{
+    
+}
+
+.second__flor{
+    display: flex;
+    margin-top: 191px;
+    justify-content: space-between;
+}
+
+.our__company{
+    
+}
+
+.topics{
+    
+}
+
+.pos{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 20px;
+    color: #9F9F9F;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 40px;
+}
+
+li, ul{
+    list-style: none;
+}
+
+.input__email{
+    width: 276px;
+    height: 46px;
+    border:none;
+    border-radius: 10px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 40px;
+    color:#939393;
+    background-color: #F8FFFD;
+}
+
+.input__email>value{
+    margin-left: 10px;
+}
+
+.third__flor{
+
+}
+
+.line{
+    margin: 50px 0 30px 0;
+}
+
+.third__main{
+    display: flex;
+    justify-content: space-between;
+}
+
+.third__flor__nav{
+    justify-content: center;
+}
+
+.third__nav{
+    text-decoration: none;
+    color: #9F9F9F;
+    margin-right: 15px;
+}
+
+.dropdown-toggle{
+    margin: 0 !important;
+    background-color: #F8FFFD !important;
+    color:black !important;
+    border: none !important;
+    font-family: 'Josefin Sans' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    line-height: 9px !important; 
+    width: 101px !important;
+    height: 30px !important;
+}
